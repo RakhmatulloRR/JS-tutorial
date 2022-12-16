@@ -137,11 +137,15 @@ demo.innerHTML = 'branch name: js/async/promise';
 //   httpReq.open('GET', './mocks/users.json');
 //   httpReq.send();
 // });
-// myPromise.then(
-//   function (value) {
-//     myDisplayer(value);
-//   },
-//   function (error) {
-//     myDisplayer(error);
-//   }
-// );
+// myPromise
+//   .then(
+//     function (value) {
+//       myDisplayer(value);
+//     },
+//     function (error) {
+//       myDisplayer(error);
+//     }
+//   )
+//   .finally(function (params) {
+//     console.log('Opiration completed');
+//   });
