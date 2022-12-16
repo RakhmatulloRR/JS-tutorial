@@ -1,3 +1,2 @@
 const demo = document.getElementById('demo');
-
-demo.innerHTML = 'hello word';
+demo.innerHTML = 'branch name: master';
